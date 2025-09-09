@@ -1,0 +1,19 @@
+#Setup for Gemini multimodal model
+#Install Vertex AI SDK and other Required Packages
+#Remove --user if want to install directly into virtual env
+%pip install --upgrade --user --quiet google-cloud-aiplatform
+
+#Restart Runtime
+import IPython
+app = IPython.Application.instance()
+app.kernel.do_shutdown(True)
+
+#Set Google Cloud Project Information and Initialize Vertex AI SDK
+PROJECT_ID = "It's the project number not the project ID/name"  # @param {type:"string"}
+LOCATION = "us-central1"
+
+#Set the GOOGLE_APPLICATION_CREDENTIALS
+#1.Create a service account for the project in google cloud
+#2.Create a key and download it(JSON file)
+#3.Copy the JSON file to a secure location.
+#4.Set the JSON file path to GOOGLE_APPLICATION_CREDENTIALS in env params
