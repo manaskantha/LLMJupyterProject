@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b15a26b6-8465-42c8-86f7-8393502af7ca" name="Changes" comment="Added code for image processing">
-      <change afterPath="$PROJECT_DIR$/data/Price_list.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/fruits_basket.jpeg" afterDir="false" />
+    <list default="true" id="b15a26b6-8465-42c8-86f7-8393502af7ca" name="Changes" comment="Added code for multi image processing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/MultimodalModelWithGemini.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/models/MultimodalModelWithGemini.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/GeminiMultimodalModalForImageProcessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/models/GeminiMultimodalModalForImageProcessing.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757411677764</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added code for multi image processing">
+      <option name="closed" value="true" />
+      <created>1761129651955</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761129651955</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +177,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="code assist python code" />
     <MESSAGE value="Added code for image processing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code for image processing" />
+    <MESSAGE value="Added code for multi image processing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code for multi image processing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
